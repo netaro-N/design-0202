@@ -99,9 +99,14 @@ section:nth-child(odd){
   width: 500px;
   height: 150px;
   margin: auto;
+  position: relative;
 }
 
 .position-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
 }
 
 .position-image img{
@@ -109,6 +114,9 @@ section:nth-child(odd){
 }
 
 .position-text{
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
   width: 100%;
   line-height: 50px;
   text-align: center;
