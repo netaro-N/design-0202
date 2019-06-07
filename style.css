@@ -134,6 +134,7 @@ section:nth-child(odd){
   margin: auto;
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
   /* ここからrotateを追加 */
+  transform: rotate(45deg);
 }
 
 /* translateの練習 */
@@ -144,6 +145,7 @@ section:nth-child(odd){
   margin: auto;
   background: linear-gradient(to right, #acb6e5, #86fde8);
   /* ここからtranslateを追加 */
+  transform: translate(100px, 50px);
 }
 
 /* skewの練習 */
@@ -154,6 +156,7 @@ section:nth-child(odd){
   margin: auto;
   background: linear-gradient(to right, #ffe000, #799f0c);
   /* ここからskewを追加 */
+  transform: skew(20deg,30deg);
 }
 
 /* scaleの練習 */
@@ -164,6 +167,7 @@ section:nth-child(odd){
   margin: auto;
   background: linear-gradient(to right, #654ea3, #eaafc8);
   /* ここからscaleを追加 */
+  transform: scale(0.5,0.5);
 }
 
 /* originの練習 */
