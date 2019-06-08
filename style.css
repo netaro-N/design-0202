@@ -224,6 +224,16 @@ section:nth-child(odd){
   height: 50px;
   margin: 30px auto;
   /* ここからanimationを追加 */
+  animation: loading-animation 1s ease-in-out infinite;
+}
+
+@keyframes loading-animation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 /* animationの練習2 */
@@ -231,4 +241,13 @@ section:nth-child(odd){
 .buruburu-text {
   text-align: center;
   /* ここからanimationを追加 */
+  animation: buruburu-animation .1s infinite;
+}
+
+@keyframes buruburu-animation {
+  0% {transform: translate(0px, 0px)}
+  25% {transform: translate(3px, 3px)}
+  50% {transform: translate(0px, 3px)}
+  75% {transform: translate(3px, 0px)}
+  100% {transform: translate(0px, 0px)}
 }
